@@ -28453,3 +28453,20 @@ video {
     padding-left: 0.875rem;
   }
 }
+#container-690025724 {
+}
+#container-690025724 > .inner-content {
+max-width: 945px;
+}
+@media screen and (max-width: 992px) {
+    #container-690025724 {
+    }
+    #container-690025724 > .inner-content {
+    }
+}
+@media screen and (max-width: 576px) {
+    #container-690025724 {
+    }
+    #container-690025724 > .inner-content {
+    }
+}
