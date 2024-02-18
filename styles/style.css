@@ -297,6 +297,14 @@ html {
   margin-right: auto;
   margin-left: auto;
 }
+.header-img{
+  display: block; /* Блочный элемент (для старых браузеров) */
+  text-align: center; /* Выравнивание по центру */
+  font-style: italic; /* Курсивное начертание */
+  margin-top: 0; /* Отступ сверху */
+  margin-bottom: 5px; /* Отступ снизу */
+  color: #666
+}
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -471,6 +479,7 @@ html {
 .col-12 {
   flex: 0 0 100%;
   max-width: 100%;
+  /* text-align: center; */
 }
 .order-first {
   order: -1;
@@ -18739,6 +18748,7 @@ footer.site-footer .tail span.copyright {
   display: none;
 }
 .marquee-wrapper {
+  background-color: #44697D;
   align-items: center;
   position: relative;
   margin-bottom: 30px;
